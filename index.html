@@ -9,14 +9,13 @@
     
     <body>
 
-        <label for="texto"></label>
-        <textarea cols="70" rows="10" placeholder="Insira seu texto"></textarea>
+        <label for="texto" id="textoinserido"></label>
+        <textarea cols="100" rows="30" placeholder="Insira seu texto"></textarea>
 
-        <button class="descriptografar">Descriptografar</button>
-        <button class="criptografar">Criptografar</button>
-
-
-
+        <div class="botao">
+            <button onclick="criptografar()" class=criptografar>Criptografar</button>
+            <button onclick="descriptografar()" class="descriptografar">Descriptografar</button>
+        </div>
 
 
 
