@@ -19,13 +19,16 @@ var substituir = textoinserido.replace(
 
 
 
+const name = document.getElementById("criptografar")
+
 function criptografar(){
     var funcao = substituir()
+    
 
 }
 
  
-var btn = document.getElementById("criptografar")
-btn.addEventListener("click", criptografar)
+var btn = document.getElementById("btn")
+btn.addEventListener("click", criptografar ())
 
 
