@@ -1,17 +1,23 @@
 
-var texto = document.getElementById('textoinserido').value
-
 function criptografar(){
-    textoinserido.replace("e", "enter")
-    textoinserido.replace("i", "imes")
-    textoinserido.replace("a", "ai")
-    textoinserido.replace("o", "ober")
-    textoinserido.replace("u", "ufat")
+
+    var texto = document.getElementById("textoinserido").value
+    
+    texto.replace("e", "enter")
+    texto.replace("i", "imes")
+    texto.replace("a", "ai")
+    texto.replace("o", "ober")
+    texto.replace("u", "ufat")
+
 }
 
+
+
+// button.addEventListener("Onclick", criptografar())
  
-var button = document.getElementById('texto')
-button.addEventListener("Onclick", criptografar())
+
+
+
 
 
 
