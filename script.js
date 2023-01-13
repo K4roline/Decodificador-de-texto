@@ -12,6 +12,13 @@ function criptografar(){
 }
 
 
+// function button(){
+//     let criptografar = document.getElementById("criptografar")
+
+//     button.onclick = function () {
+//         criptografar() 
+//     }
+// }
 
 // button.addEventListener("Onclick", criptografar())
  
