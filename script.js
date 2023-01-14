@@ -3,13 +3,14 @@ function criptografar(){
 
     var texto = document.getElementById("textoinserido").value
     
-    texto.replace("e", "enter")
+    texto.replace("e", "enter") 
     texto.replace("i", "imes")
     texto.replace("a", "ai")
     texto.replace("o", "ober")
     texto.replace("u", "ufat")
 
 }
+
 
 
 // function button(){
