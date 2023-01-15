@@ -2,40 +2,35 @@
 function criptografar(){
 
     var texto = document.getElementById("textoinserido").value
-    
-    texto.replace("e", "enter") 
-    texto.replace("i", "imes")
-    texto.replace("a", "ai")
-    texto.replace("o", "ober")
-    texto.replace("u", "ufat")
+    var textocriptografado = ""
 
+    textocriptografado = texto.replace("e", "enter") 
+    textocriptografado = textocriptografado.replace("i", "imes")
+    textocriptografado = textocriptografado.replace("a", "ai")
+    textocriptografado = textocriptografado.replace("o", "ober")
+    textocriptografado = textocriptografado.replace("u", "ufat")
+
+    document.getElementById("resultado").innerHTML = textocriptografado
 }
 
+ 
+function descriptografar() {
+    var texto = document.getElementById("textoinserido").value
+    var textodescriptografado = ""
 
+    textodescriptografado = texto.replace("enter", "e")
+    textodescriptografado = textodescriptografado.replace("imes", "i")
+    textodescriptografado = textodescriptografado.replace("ai", "a")
+    textodescriptografado = textodescriptografado.replace("ober", "o")
+    textodescriptografado = textodescriptografado.replace("ufat", "u")
 
-// function button(){
-//     let criptografar = document.getElementById("criptografar")
+    document.getElementById("resultado").innerHTML = textodescriptografado
+} 
 
-//     button.onclick = function () {
-//         criptografar() 
-//     }
+// function copiar() {
+//    var textocopiado = window.clipboardData.getData('Text')
+//    document.getElementById("textoinserido").value = textocopiado
 // }
 
-// button.addEventListener("Onclick", criptografar())
- 
-
-
-
-
-
-
-
-// 
-//     replace("enter", "e")
-//     replace("imes", "i")
-//     replace("ai", "a")
-//     replace("ober", "o")
-//     replace("ufat", "u")
-// 
 
 
