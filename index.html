@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
         <title>Decodificador de texto</title>
@@ -11,8 +12,11 @@
     <body>
 
         <h1>Decodificador de texto</h1>
-
-        <textarea id="textoinserido" cols="100" rows="30" placeholder="Insira seu texto"></textarea>
+        
+        <div class="camposdetexto">
+            <textarea id="textoinserido" placeholder=" Insira seu texto "></textarea>
+            <textarea type="text" value="Mensagem escrita" name="xpto" readonly id="resultado"></textarea>
+        </div>
 
         <div class="botao">
             <button onclick="descriptografar()" id="descriptografar">Descriptografar</button>
@@ -20,14 +24,10 @@
             <!-- <button onclick="copiar()" id="copiar">Copiar</button> -->
         </div>
 
-        <div class="resultado">
-            <span id="resultado"></span>
-        </div>
 
 
-
-        <!-- <footer>
+        <footer>
             <p>Karoline Corrêa - 2023</p>
-        </footer> -->
+        </footer>
     </body>
 </html>

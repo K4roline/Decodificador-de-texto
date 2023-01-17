@@ -18,11 +18,11 @@ function descriptografar() {
     var texto = document.getElementById("textoinserido").value
     var textodescriptografado = ""
 
-    textodescriptografado = texto.replace("enter", "e")
-    textodescriptografado = textodescriptografado.replace("imes", "i")
-    textodescriptografado = textodescriptografado.replace("ai", "a")
-    textodescriptografado = textodescriptografado.replace("ober", "o")
-    textodescriptografado = textodescriptografado.replace("ufat", "u")
+    textodescriptografado = texto.replaceAll("enter", "e")
+    textodescriptografado = textodescriptografado.replaceAll("imes", "i")
+    textodescriptografado = textodescriptografado.replaceAll("ai", "a")
+    textodescriptografado = textodescriptografado.replaceAll("ober", "o")
+    textodescriptografado = textodescriptografado.replaceAll("ufat", "u")
 
     document.getElementById("resultado").innerHTML = textodescriptografado
 } 
