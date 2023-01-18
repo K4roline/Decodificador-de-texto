@@ -8,7 +8,8 @@ h1 {
     margin-top: 40px;
     margin-bottom: 40px;
     color: rgb(42, 135, 87);
-
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 
 .camposdetexto {
@@ -19,17 +20,55 @@ h1 {
 textarea {
     border-left: 100px;
     margin: 0 0 0 15px;
-    width: 500px;
-    height: 450px;
-    border: 2px solid rgb(75, 177, 124);
+    width: 450px;
+    height: 400px;
+    border: 1px solid rgb(75, 177, 124);
     border-radius: 8px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(204, 230, 216);
+    resize: none;
+}
 
+p {
+    font-size: 12px;
+    color: rgb(42, 135, 87);
+    margin-left: 330px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .botao {
-    
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 75px;
 }
 
+.criptografarbutton, .descriptografarbutton {
+    color: rgb(42, 135, 87);
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgb(75, 177, 124);
+    border-radius: 8px;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.linkedinimg {
+    width: 17px;
+    height: 17px;
+    margin-left: 5px;
+}
+.githubimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
 
 
 
