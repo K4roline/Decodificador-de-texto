@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Open+Sans&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&family=Roboto+Mono&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
         <script src="script.js"></script>
@@ -16,20 +15,25 @@
         
         <div class="camposdetexto">
             <textarea id="textoinserido" placeholder=" Insira seu texto para criptografia/descriptografia"></textarea>
-            <textarea type="text" placeholder=" O resultado será exibido aqui " value="Mensagem escrita" name="xpto" readonly id="resultado"></textarea>
+            <textarea id="resultado" type="text" placeholder=" O resultado será exibido aqui " value="Mensagem escrita" name="xpto" readonly></textarea>
         </div>
 
         <p>⚠️ Apenas letras minúsculas e sem acento</p>
 
         <div class="botao">
-            <button onclick="criptografar()" class="criptografarbutton" id="criptografar">Criptografar</button>
-            <button onclick="descriptografar()" class="descriptografarbutton" id="descriptografar">Descriptografar</button>
+            <button onclick="criptografar()" class="criptografarbotao" id="criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="descriptografarbotao" id="descriptografar">Descriptografar</button>
+        </div>
+
+        <div class="botaomobile">
+            <button onclick="criptografar()" class="criptografarbotao" id="criptografar">Criptografar</button>
+            <button onclick="descriptografar()" class="descriptografarbotao" id="descriptografar">Descriptografar</button>
         </div>
 
 
 
         <footer>
-            <p2>®️ Karoline Corrêa - 2023</p2>
+            <p2>Desenvolvido por Karoline Corrêa - 2023</p2>
             <a href="https://www.linkedin.com/in/karoline-corr%C3%AAa-162091248/"><img src="linkedinicone.png" class="linkedinimg"></a>
             <a href="https://github.com/K4roline"><img src="githubicone.png" class="githubimg">
         </footer>

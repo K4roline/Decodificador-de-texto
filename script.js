@@ -4,11 +4,11 @@ function criptografar(){
     var texto = document.getElementById("textoinserido").value
     var textocriptografado = ""
 
-    textocriptografado = texto.replace("e", "enter") 
-    textocriptografado = textocriptografado.replace("i", "imes")
-    textocriptografado = textocriptografado.replace("a", "ai")
-    textocriptografado = textocriptografado.replace("o", "ober")
-    textocriptografado = textocriptografado.replace("u", "ufat")
+    textocriptografado = texto.replaceAll("e", "enter") 
+    textocriptografado = textocriptografado.replaceAll("i", "imes")
+    textocriptografado = textocriptografado.replaceAll("a", "ai")
+    textocriptografado = textocriptografado.replaceAll("o", "ober")
+    textocriptografado = textocriptografado.replaceAll("u", "ufat")
 
     document.getElementById("resultado").innerHTML = textocriptografado
 }
@@ -27,10 +27,6 @@ function descriptografar() {
     document.getElementById("resultado").innerHTML = textodescriptografado
 } 
 
-// function copiar() {
-//    var textocopiado = window.clipboardData.getData('Text')
-//    document.getElementById("textoinserido").value = textocopiado
-// }
 
 
 
