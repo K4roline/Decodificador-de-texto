@@ -46,13 +46,23 @@ textarea {
     line-height: 30px;
 }
 
-p {
+textarea::placeholder {
+    color: rgb(42, 135, 87);
+  }
+
+p1 {
     font-size: 12px;
     color: rgb(42, 135, 87);
     margin-left: 330px;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Roboto Slab', serif;
+}
+
+p2 {
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
 }
 
 .botao {
@@ -77,8 +87,6 @@ p {
 
 footer {
     text-align: center;
-    font-family: 'Roboto Slab', serif;
-    color: white;
     padding: 30px 0;
 }
 
@@ -109,11 +117,11 @@ footer {
         margin: 0 0 120px 22px;
     }
 
-    p {
+    p1 {
         display:flex;
         margin-left: 80px;
-        margin-top: 5px;
-        margin-bottom: 50px;
+        margin-top: -620px;
+        margin-bottom: 30px;
     }
 
     .botaomobile {
@@ -125,5 +133,12 @@ footer {
 
     .botao {
         display: none;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 15px;
+        border-top: 500px;
+        padding: 500px 15px 2px;
     }
 }

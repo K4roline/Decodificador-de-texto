@@ -1,4 +1,3 @@
-
 function criptografar(){
 
     var texto = document.getElementById("textoinserido").value
@@ -13,7 +12,6 @@ function criptografar(){
     document.getElementById("resultado").innerHTML = textocriptografado
 }
 
- 
 function descriptografar() {
     var texto = document.getElementById("textoinserido").value
     var textodescriptografado = ""
@@ -26,7 +24,3 @@ function descriptografar() {
 
     document.getElementById("resultado").innerHTML = textodescriptografado
 } 
-
-
-
-
